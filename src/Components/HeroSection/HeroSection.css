@@ -1,0 +1,22 @@
+.heroSection {
+    position: relative;
+}
+
+.heroImg {
+    width: 100%;
+}
+
+.heroBtn {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    border: 1px solid white;
+    padding: 14px 28px;
+    color: #363636;
+    transition: all 1s;
+}
+
+.heroBtn:hover {
+    background: transparent;
+    color: white;
+}

@@ -1,0 +1,49 @@
+.reviews {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.reviews img {
+    width: 100%;
+}
+
+.reviewText {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewBox {
+    background-color: white;
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px 60px;
+}
+
+
+.stars {
+    display: flex;
+    gap: 16px;
+    color: #FFD700;
+    font-size: 30px;
+}
+
+.reviewBox .name {
+    font-size: 40px;
+    color: #191919;
+    font-weight: 700;
+    margin: 18px 0px;
+}
+
+.reviewBox .para {
+    font-size: 22px;
+    color: #191919;
+    margin: 15px auto 20px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.somenews {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    align-items: center;
+    justify-content: center;
+}
+
+.somenews img {
+    width: 80%;
+}
+
+.delMore {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: center;
+}
+
+.delBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.delMore img {
+    width: 20%;
+}
+
+.delBox .text {
+    margin-top: 8px;
+    font-size: 14px;
+}

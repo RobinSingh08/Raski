@@ -1,0 +1,27 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* align-items: center; */
+}
+
+.footer {
+    width: 960px;
+
+}
+
+h4 {
+    font-size: 13px;
+}
+
+.footerText {
+    color: #6a6a6a;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.copyrights {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}

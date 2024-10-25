@@ -1,0 +1,86 @@
+.shophead {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19%;
+    gap: 60px;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.cardDetails {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodName {
+    color: #1c1b1b;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .2em;
+
+}
+
+.reviews {
+    font-size: 12px;
+    display: flex;
+    padding-top: 8px;
+    color: #1c1b1b;
+    letter-spacing: .2em;
+}
+
+.reviews .icons {
+    padding-right: 4px;
+}
+
+.price {
+    color: #f94c43;
+    font-size: 12px;
+    padding-top: 8px;
+    letter-spacing: .2em;
+}
+
+.price s {
+    color: #1c1b1b;
+}
+
+.off {
+    background: red;
+    color: white;
+    padding: 3px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.shopBtn button {
+    background: #1c1b1b;
+    color: white;
+    padding: 14px 28px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    letter-spacing: .2em;
+    margin-top: 16px;
+    transition: all 1s;
+}
+
+.shopBtn button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.prodBtn {
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
